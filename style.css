@@ -21,15 +21,17 @@
     margin-left: 5px;
 }
 
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .header-img {
-    width: 1000px;
-    height: 700px;
-    left: 240px;
-    top: 577px;
-    margin-left: 130px;
-    padding-bottom: 30px;
-
-
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    padding-bottom: 40px;
 }
 
 .anchor {
@@ -76,14 +78,14 @@
 }
 
 .btn-primary {
-    margin-left: 45%;
     background: #FF900E;
     border-radius: 8px;
     width: 144px;
     height: 50px;
     color: whitesmoke;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 45px;
 }
 
 /* container styles end here */
