@@ -110,8 +110,10 @@
 
 
 .img-div-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    justify-content: center;
     margin-right: 590px;
     margin-left: 150px;
     gap: 5px;
